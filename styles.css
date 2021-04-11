@@ -1,0 +1,80 @@
+body p{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 20%;
+    padding: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;  
+}
+
+main{
+    margin: 70px auto;
+    width: 60%;
+    text-align: center;
+    padding: 42px;
+}
+input{
+    padding: 1em;
+    width: 80%;
+    border-radius: 35px;
+    border: 1px solid gray;
+}
+.buttons{
+    margin-top: 30px; 
+}
+.buttons button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(245, 244, 244);
+    border-radius: 3px;
+}
+.googlelang{
+    font-size: 12px;
+    font-family: sans-serif;
+    word-spacing: 0.3rem;
+    padding: 20px;
+}
+.googlelang a{
+    color: blue;
+}
+.googlelang a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(247, 244, 244);
+}
+.footer_top{
+    padding: 10px;
+}
+.footer_bottom{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(209, 208, 208);
+    padding: 10px;
+}
+.mid{
+    color: rgb(85, 84, 84);
+    text-align: center;
+}
+.left a{
+   margin-right: 1rem;
+   color: rgb(85, 84, 84);
+}
+.right a{
+    margin-right: 1rem;
+    color: rgb(85, 84, 84);
+}
